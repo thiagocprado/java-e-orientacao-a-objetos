@@ -1,0 +1,34 @@
+public class Fluxo {
+
+	public static void main(String[] args) {
+		System.out.println("Ini do main");
+
+		try {
+			metodo1();
+		} catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
+			System.out.println(ex.getMessage());
+			ex.printStackTrace();
+		}
+
+		System.out.println("Fim do main");
+	}
+
+	private static void metodo1() throws MinhaExcecao {
+		System.out.println("Ini do metodo1");
+		metodo2();
+		System.out.println("Fim do metodo1");
+	}
+
+	// exceção do tipo checked, pois precisa deixar na explicito na assinatura do
+	// método
+	private static void metodo2() throws MinhaExcecao {
+		System.out.println("Ini do metodo2");
+
+		// lança uma exception de maneira forçada
+		// throw new ArithmeticException("deu errado");
+
+		throw new MinhaExcecao("deu errado");
+
+		// System.out.println("Fim do metodo2");
+	}
+}

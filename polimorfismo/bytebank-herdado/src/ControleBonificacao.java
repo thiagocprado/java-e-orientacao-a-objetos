@@ -1,5 +1,3 @@
-package src;
-
 public class ControleBonificacao {
   private double totalBonificacao;
 

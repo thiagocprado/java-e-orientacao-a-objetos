@@ -1,5 +1,3 @@
-package src;
-
 public class TestaPontoFlutuante {
 
   public static void main(String[] args) {

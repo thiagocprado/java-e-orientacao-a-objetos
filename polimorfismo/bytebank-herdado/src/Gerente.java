@@ -1,5 +1,3 @@
-package src;
-
 // herança - gerente é um funcionário, gerente herda da classe funcionário
 public class Gerente extends Funcionario implements Autenticavel {
   private AutenticacaoUtil util;

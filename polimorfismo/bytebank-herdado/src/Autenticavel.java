@@ -1,5 +1,3 @@
-package src;
-
 // contrato - o contrato se chama Autenticavel
 // quem assinar esse contrato, precisa implementar os métodos dele
 public abstract interface Autenticavel {

@@ -1,5 +1,3 @@
-package src;
-
 public class TestaConversao {
 
   public static void main(String[] args) {

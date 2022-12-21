@@ -1,5 +1,3 @@
-package src;
-
 public class SistemaInterno {
   private int senha = 1234;
 

@@ -1,5 +1,3 @@
-package src;
-
 // classes abstratas não podem ser instanciadas, servem como uma base fixa
 public abstract class Funcionario {
   private String nome;

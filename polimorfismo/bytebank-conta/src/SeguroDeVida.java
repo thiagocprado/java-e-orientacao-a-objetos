@@ -1,5 +1,3 @@
-package src;
-
 public class SeguroDeVida implements Tributavel {
 
   @Override

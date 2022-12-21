@@ -1,5 +1,3 @@
-package src;
-
 public class TesteTributaveis {
 
   public static void main(String[] args) {

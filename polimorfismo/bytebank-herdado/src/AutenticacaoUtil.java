@@ -1,5 +1,3 @@
-package src;
-
 public class AutenticacaoUtil {
   private int senha;
 
